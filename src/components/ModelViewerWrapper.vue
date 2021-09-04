@@ -11,7 +11,7 @@
     loading="lazy"
     ar-status="not-presenting"
     alt="model preview"
-    class="w-full min-h-screen-sm"
+    class="w-full min-h-"
   />
 </template>
 
@@ -22,5 +22,3 @@ export default {
   },
 }
 </script>
-
-st

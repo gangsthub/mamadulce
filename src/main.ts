@@ -22,7 +22,7 @@ export const createApp = ViteSSG(
   App,
   { routes },
   (ctx) => {
-    // install all modules under `modules/`
+    ctx.app.config.compilerOptions.isCustomElement = tag => tag.startsWith('model-')
     Object.values(import.meta.globEager('./modules/*.ts')).map(i => i.install?.(ctx))
   },
 )
