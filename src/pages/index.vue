@@ -1,12 +1,10 @@
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n()
-</script>
 
 <template>
   <div>
-    <h1>Mama Dulce</h1>
+    <h1 class="prose-2xl">
+      Mama Dulce
+    </h1>
+    <CardList class="md:w-1/2 md:m-auto" />
   </div>
 </template>
 
