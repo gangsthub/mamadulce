@@ -4,14 +4,14 @@
     autoplay="true"
     auto-rotate="true"
     camera-controls="true"
+    disable-zoom
     ar="true"
     ar-modes="webxr scene-viewer quick-look"
-
     data-js-focus-visible="true"
     loading="lazy"
     ar-status="not-presenting"
     alt="model preview"
-    class="w-full min-h-xl"
+    class="w-full min-h-screen-sm"
   />
 </template>
 

@@ -14,6 +14,7 @@ declare module 'vue' {
     Card: typeof import('./src/components/Card.vue')['default']
     CardList: typeof import('./src/components/CardList.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    Header: typeof import('./src/components/Header.vue')['default']
     ModelViewerWrapper: typeof import('./src/components/ModelViewerWrapper.vue')['default']
     README: typeof import('./src/components/README.md')['default']
   }
