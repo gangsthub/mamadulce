@@ -11,7 +11,7 @@
     loading="lazy"
     ar-status="not-presenting"
     alt="model preview"
-    class="w-full min-h-"
+    class="w-full min-h-lg"
   />
 </template>
 

@@ -39,6 +39,11 @@ export default defineConfig({
           },
         },
       },
+      colors: {
+        primary: '#03d300',
+        secondary: colors.fuchsia[600],
+        background: '#d6d4af',
+      },
     },
   },
 })

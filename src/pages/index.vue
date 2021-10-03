@@ -1,8 +1,8 @@
 
 <template>
   <div>
-    <h1 class="prose-2xl">
-      Mama Dulce Art
+    <h1 class="text-5xl mb-4">
+      Mama Dulce
     </h1>
     <CardList class="md:w-1/2 md:m-auto" />
   </div>

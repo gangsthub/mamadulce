@@ -4,7 +4,7 @@ import brand from '~/config/brand'
 </script>
 
 <template>
-  <nav class="text-xl mt-6">
-    {{ brand.BRAND_NAME }}
+  <nav class="text-sm py-3">
+    {{ brand.DOMAIN }} &copy; - {{ new Date().getFullYear() }}
   </nav>
 </template>

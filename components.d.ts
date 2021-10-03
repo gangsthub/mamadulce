@@ -11,6 +11,7 @@ declare module 'vue' {
     Footer: typeof import('./src/components/Footer.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
     ModelViewerWrapper: typeof import('./src/components/ModelViewerWrapper.vue')['default']
+    Mountain: typeof import('./src/components/Mountain.vue')['default']
     README: typeof import('./src/components/README.md')['default']
   }
 }
