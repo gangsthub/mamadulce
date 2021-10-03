@@ -24,6 +24,11 @@ export default defineConfig({
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
+      template: {
+        compilerOptions: {
+          isCustomElement: tag => tag === 'model-viewer',
+        }
+      }
     }),
 
     // https://github.com/hannoeru/vite-plugin-pages
